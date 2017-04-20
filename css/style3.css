@@ -1,0 +1,66 @@
+
+body {
+  max-width: 400px;
+  background-color: white;
+  font-family: sans-serif;
+  color: red;
+  background-image: url("../pepper.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.section1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+h1{
+  text-align: center;
+  color: red;
+  font-size: 50px;
+
+}
+
+
+
+h2{
+  color: blue;
+  font-size: 40px;
+
+}
+
+h3 {
+  color: orange;
+  font-size: 30px;
+}
+
+h4 {
+  color: pink;
+  font-size: 20px;
+}
+
+button {
+  color: blue;
+  font-size: 16px;
+  border-radius: 36px;
+  background-color: white;
+  border: 3px solid blue;
+  padding: 11px;
+  cursor: pointer;
+}
+
+a{
+  color: blue;;
+  text-decoration: none;
+}
