@@ -1,8 +1,8 @@
 
 body {
   max-width: 400px;
-  background-color: orange;
-  background-image: url("../mac.jpg");
+  background-color: #00ff8c;
+  /*background-image: url("../mac.jpg");*/
   background-position: center;
   background-repeat: no-repeat;
   font-family: sans-serif;

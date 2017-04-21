@@ -1,10 +1,11 @@
 
 body {
   max-width: 400px;
-  background-color: white;
+  background-color: #dadb9e;
   font-family: sans-serif;
   color: red;
-  background-image: url("../pepper.jpg");
+  background-image: url(../pepper.jpg);
+  background-blend-mode: exclusion;
   background-size: contain;
   background-repeat: no-repeat;
 
@@ -27,40 +28,45 @@ body {
 
 h1{
   text-align: center;
-  color: red;
-  font-size: 50px;
+  color: #ffa4a4;
+  font-size: 56px;
 
 }
 
 
 
 h2{
-  color: blue;
+  color: white;
   font-size: 40px;
 
 }
 
 h3 {
-  color: orange;
+  color: black;
   font-size: 30px;
 }
 
 h4 {
-  color: pink;
-  font-size: 20px;
+  color: #ffa4a4;
+  font-size: 30px;
 }
 
 button {
-  color: blue;
+  rgba(255, 68, 0, 0.82);
   font-size: 16px;
   border-radius: 36px;
   background-color: white;
-  border: 3px solid blue;
+  border: 3px solid #ffa4a4;
   padding: 11px;
   cursor: pointer;
 }
 
 a{
-  color: blue;;
+  color: #ffa4a4;
   text-decoration: none;
+}
+
+#gg {
+  height: 345px;
+  border: 23px solid #ffa4a4;
 }
