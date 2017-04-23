@@ -70,3 +70,8 @@ a{
   height: 345px;
   border: 23px solid #ffa4a4;
 }
+
+#pink-arrow{
+  color:#ffa4a4;
+  font-size: 40px;
+}
