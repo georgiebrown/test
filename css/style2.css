@@ -1,9 +1,10 @@
 
 body {
-  max-width: 400px;
+  /*max-width: 400px;*/
   font-family: sans-serif;
   background-color: #ffe473;
   border: 6px solid red;
+  padding: 20px;
 
 }
 
@@ -60,6 +61,7 @@ a{
 
 #growlers{
   width: 380px;
+
 }
 
 .next {
@@ -77,11 +79,16 @@ a{
 #ticket {
   cursor: pointer;
   width: 350px;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 3s;
+  -webkit-animation-iteration-count: infinite;
+
 
 }
 
 #video {
   margin-bottom: 10px;
+  border: 6px solid red;
 }
 
 #ticket:hover{
@@ -98,7 +105,8 @@ button:hover {
 }
 
 #growlersImage {
-  width: 350px;
-  height:360px;
-  margin-top: 20px;
+  width: 300px;
+  height:300px;
+  margin-top: 30px;
+  border: 6px solid red;
 }

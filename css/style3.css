@@ -1,14 +1,15 @@
 
 body {
-  max-width: 400px;
-  background-color: #dadb9e;
-  font-family: sans-serif;
-  color: red;
-  background-image: url(../pepper.jpg);
-  background-blend-mode: exclusion;
+  /*max-width: 400px;*/
+  background-color: #01030e;
+  color: #e6ff9f;
+  font-family: monospace;
+  letter-spacing: 14px;
+  /*background-image: url(../pepper.jpg);*/
+  /*background-blend-mode: exclusion;
   background-size: contain;
-  background-repeat: no-repeat;
-
+  background-repeat: repeat;*/
+  padding: 20px;
 }
 
 .container {
@@ -28,8 +29,9 @@ body {
 
 h1{
   text-align: center;
-  color: #ffa4a4;
-  font-size: 56px;
+  /*letter-spacing: 8px;
+  line-height: 278px;
+  font-size: 56px;*/
 
 }
 
@@ -37,7 +39,7 @@ h1{
 
 h2{
   color: white;
-  font-size: 40px;
+  /*font-size: 40px;*/
 
 }
 
@@ -48,7 +50,7 @@ h3 {
 
 h4 {
   color: #ffa4a4;
-  font-size: 30px;
+  /*font-size: 49px;*/
 }
 
 button {

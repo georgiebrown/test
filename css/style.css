@@ -1,12 +1,13 @@
 
 body {
-  max-width: 400px;
+  /*max-width: 400px;*/
   background-color: #00ff8c;
   /*background-image: url("../mac.jpg");*/
   background-position: center;
   background-repeat: no-repeat;
-  font-family: sans-serif;
   border: 6px solid yellow;
+  font-family: monospace;
+  letter-spacing: 14px;
 
 }
 
@@ -28,11 +29,17 @@ body {
   height: 252px;
   width: 260px;
   cursor: pointer;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-iteration-count: 10s;
 }
 
 h1{
   text-align: center;
   color: rgb(255, 255, 0);
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 0s;
+  -webkit-animation-iteration-count: 10s;
 
 }
 
@@ -44,14 +51,9 @@ h1{
 
 }
 
-button {
-  background-color: #44ecff;
-  border: 5px solid yellow;
-  font-size: 16px;
-  border-radius: 36px;
-  padding: 11px;
-  cursor: pointer;
-  margin-bottom: 20px;
+.gift.fa{
+  color: rgb(26, 156, 255);
+  font-size: 67px;
 }
 
 button:hover {
@@ -64,4 +66,10 @@ a{
 }
 
 .growlers-container {
+}
+
+.birthday_heading {
+  -vendor-animation-duration: 15s;
+-vendor-animation-delay: 2s;
+-vendor-animation-iteration-count: infinite;
 }
