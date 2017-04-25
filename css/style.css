@@ -8,6 +8,7 @@ body {
   border: 6px solid yellow;
   font-family: monospace;
   letter-spacing: 14px;
+  padding: 20px;
 
 }
 
@@ -54,6 +55,10 @@ h1{
 .gift.fa{
   color: rgb(26, 156, 255);
   font-size: 67px;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 3s;
+  -webkit-animation-iteration-count: infinite;
+
 }
 
 button:hover {

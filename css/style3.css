@@ -79,3 +79,9 @@ padding: 10px;
   color:#ffa4a4;
   font-size: 40px;
 }
+
+.love {
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 3s;
+  -webkit-animation-iteration-count: infinite;
+}
